@@ -8,4 +8,9 @@ def reverse_each_word(phrase)
   
   temp_array_rev.join(" ")
   
+  temp_array.collect do |word|
+    word.reverse
+  end
+  
+  
 end
